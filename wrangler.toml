@@ -1,7 +1,13 @@
+name = "mission-chat-worker"
+main = "index.js"
+compatibility_date = "2026-02-28"
+
+# Durable Object Binding
 [[durable_objects.bindings]]
 name = "MISSION_CHAT"
 class_name = "Mission_Chat"
 
+# Required for SQLite-backed Durable Object
 [[migrations]]
-tag = "v2"
+tag = "v1"
 new_sqlite_classes = ["Mission_Chat"]
