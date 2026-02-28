@@ -1,4 +1,4 @@
-name = "mission-chat-worker"
+name = "mission-chat"
 main = "index.js"
 compatibility_date = "2026-02-28"
 
