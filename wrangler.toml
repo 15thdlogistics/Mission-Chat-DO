@@ -1,0 +1,7 @@
+[[durable_objects.bindings]]
+name = "MISSION_CHAT"
+class_name = "Mission_Chat"
+
+[[migrations]]
+tag = "v2"
+new_sqlite_classes = ["Mission_Chat"]
